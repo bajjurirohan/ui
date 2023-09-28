@@ -27,16 +27,16 @@ const About = () => {
           ABOUT ME
         </h2>
         <h3 className="h3 ">
-        I am a full stack developer with
+        I am a UI developer with
         <span className=" font-tertiary text-gradient"> { InView ?
           <CountUp start={0} end={8} duration={5}/> : null }
             </span> 
-          years of experience in the software industry. I have a strong understanding of both the 
+           years of experience in the software industry. I have a strong understanding of both the 
           <span className=" font-tertiary text-gradient"> Front end </span> and <span className=" font-tertiary text-gradient"> Back-end </span>back-end aspects of web development.
           I am proficient in a variety of programming languages and technologies
         </h3><p className="h3">
-        In my previous role, I was responsible for the <span className=" font-tertiary text-gradient"> development </span> and 
-        <span className=" font-tertiary text-gradient"> maintenance </span> of a large-scale web application. 
+        In my previous role, I was responsible for the <span className=" font-tertiary text-gradient"> design </span> and 
+        <span className=" font-tertiary text-gradient"> development </span> of a large-scale web application. 
         
         I worked closely with a team of engineers to design, implement, and test new features.
          
