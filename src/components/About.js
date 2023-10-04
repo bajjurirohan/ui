@@ -27,7 +27,7 @@ const About = () => {
           ABOUT ME
         </h2>
         <h3 className="h3 ">
-        I am a UI developer with
+        I am a UI/UX developer with
         <span className=" font-tertiary text-gradient"> { InView ?
           <CountUp start={0} end={8} duration={5}/> : null }
             </span> 

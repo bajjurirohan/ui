@@ -49,7 +49,7 @@ const Banner = () => {
               sequence={[
                 "",
                 1000,
-                "UI Developer",
+                "UI/UX Developer",
                 3000,
                 "Court-Side Coder",
                 2000,
@@ -80,14 +80,12 @@ const Banner = () => {
         className="flex text-3xl gap-x-10 lg:gap-x-[150px] max-x-max mx-auto
         lg:mx-0 lg:text-5xl"
       >
-        <a href="https://www.linkedin.com/in/rohan-baj-626798292/" target="_blank" rel="noopener noreferrer">
-          <AiFillLinkedin />
-        </a>
+
         <a href="https://github.com/bajjurirohan" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
       </div>
-      <button className="btn h-16 w-40" onClick={() => window.open('/rohan_ui.pdf')} > ResuMe</button>
+      <button className="btn h-16 w-40" onClick={() => window.open('/UI_UX.pdf')} > ResuMe</button>
       </div>
     </section>
   );
